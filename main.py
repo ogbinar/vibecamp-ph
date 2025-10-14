@@ -48,6 +48,7 @@ async def what_is_vibecamp():
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>What is Vibecamp?</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body class="bg-gray-50 flex items-center justify-center min-h-screen px-6">
   <div class="max-w-3xl w-full rounded-2xl border border-gray-200 bg-white p-8 shadow-sm text-gray-800">
@@ -56,15 +57,33 @@ async def what_is_vibecamp():
       <strong>VibeCamp</strong> is a community of builders, hackers, and vibecoders — people who create not just for profit, but for purpose, curiosity, and joy. 
       We believe that building is a human superpower, and that everyone deserves access to the tools, knowledge, and confidence to create something meaningful.
     </p>
-    <p class="leading-relaxed">
+    <p class="leading-relaxed mb-8">
       Our goal is to make “the power to build” something that scales — not through corporations or gatekeepers, but through community. 
       We want to cultivate an ecosystem where people help each other experiment, launch, and grow ideas that build value for themselves and for others. 
       VibeCamp is where creativity meets collaboration, where code meets culture, and where every builder finds their vibe.
     </p>
+
+    <!-- Social Links -->
+    <div class="flex justify-center gap-6 mt-8">
+      <a href="https://discord.gg/MzdMQfZwcs" target="_blank" class="flex items-center gap-2 text-indigo-600 hover:text-indigo-800 transition">
+        <i data-lucide="message-square"></i><span>Discord</span>
+      </a>
+      <a href="https://www.facebook.com/groups/vibecamp" target="_blank" class="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition">
+        <i data-lucide="users"></i><span>Facebook Group</span>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=61579579477817" target="_blank" class="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition">
+        <i data-lucide="facebook"></i><span>Facebook Page</span>
+      </a>
+    </div>
+
     <div class="mt-8 text-center">
       <a href="/" class="text-yellow-600 hover:text-yellow-700 font-medium">← Back to Home</a>
     </div>
   </div>
+
+  <script>
+    lucide.createIcons();
+  </script>
 </body>
 </html>
 """)
