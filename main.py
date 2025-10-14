@@ -65,9 +65,6 @@ async def what_is_vibecamp():
 
     <!-- Social Links -->
     <div class="flex justify-center gap-6 mt-8">
-      <a href="https://discord.gg/MzdMQfZwcs" target="_blank" class="flex items-center gap-2 text-indigo-600 hover:text-indigo-800 transition">
-        <i data-lucide="message-square"></i><span>Discord</span>
-      </a>
       <a href="https://www.facebook.com/groups/vibecamp" target="_blank" class="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition">
         <i data-lucide="users"></i><span>Facebook Group</span>
       </a>
